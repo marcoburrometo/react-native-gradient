@@ -1,48 +1,48 @@
 {
-    "name": "rnx-gradient",
-    "version": "0.1.0",
-    "description": "Linear Gradient for React Native Fabric",
-    "react-native": "src/index",
-    "source": "src/index",
-    "files": [
-        "src",
-        "android",
-        "ios",
-        "react-native-gradient.podspec",
-        "!android/build",
-        "!ios/build",
-        "!**/__tests__",
-        "!**/__fixtures__",
-        "!**/__mocks__"
-    ],
-    "keywords": [
-        "react-native",
-        "ios",
-        "android",
-        "linear-gradient"
-    ],
-    "repository": "https://github.com/FyndX/react-native-gradient",
-    "author": "<Subramanya Chakravarthy> <subramanya@fyndx.io> (https://github.com/chakrihacker)",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/FyndX/react-native-gradient/issues"
-    },
-    "homepage": "https://github.com/FyndX/react-native-gradient#readme",
-    "devDependencies": {
-        "@babel/core": "^7.18.2",
-        "@babel/runtime": "^7.18.3"
-    },
-    "peerDependencies": {
-        "react": "*",
-        "react-native": "*"
-    },
-    "codegenConfig": {
-        "libraries": [
-            {
-                "name": "rnx-gradient",
-                "type": "components",
-                "jsSrcsDir": "src"
-            }
-        ]
-    }
+  "name": "react-native-gradient",
+  "version": "0.1.0",
+  "description": "Linear Gradient for React Native compatible with Fabric",
+  "react-native": "src/index",
+  "source": "src/index",
+  "files": [
+    "src",
+    "android",
+    "ios",
+    "react-native-gradient.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "linear-gradient"
+  ],
+  "repository": "https://github.com/marcoburrometo/react-native-gradient",
+  "author": "<Marco Burrometo> <marco.burrometo@gmail.com> (https://github.com/marcoburrometo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcoburrometo/react-native-gradient/issues"
+  },
+  "homepage": "https://github.com/marcoburrometo/react-native-gradient#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/runtime": "^7.18.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "libraries": [
+      {
+        "name": "react-native-gradient",
+        "type": "components",
+        "jsSrcsDir": "src"
+      }
+    ]
+  }
 }
