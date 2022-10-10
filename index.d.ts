@@ -1,7 +1,15 @@
 import { Component } from "react";
 
+export type Point = $ReadOnly<{ x: Float; y: Float }>;
+
 export interface LinearGradientProps {
-  colors: string[];
+  start?: Point;
+  end?: Point;
+  colors: Array<ColorValue>;
+  locations?: Array<Float>;
+  useAngle?: boolean;
+  angleCenter?: Point;
+  angle?: Float;
 }
 export default class LinearGradient extends Component<
   LinearGradientProps,

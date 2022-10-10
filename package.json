@@ -2,8 +2,8 @@
   "name": "react-native-gradient",
   "version": "0.1.0",
   "description": "Linear Gradient for React Native compatible with Fabric",
-  "react-native": "src/index",
-  "source": "src/index",
+  "react-native": "index",
+  "source": "index",
   "files": [
     "src",
     "android",
