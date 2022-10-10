@@ -11,12 +11,5 @@ export interface LinearGradientProps {
   angleCenter?: Point;
   angle?: Float;
 }
-export default class LinearGradient extends Component<
-  LinearGradientProps,
-  any
-> {
-  static defaultProps: {
-    colors: string[];
-  };
-  render(): JSX.Element;
-}
+
+export const LinearGradient: Component<LinearGradientProps>;
