@@ -12,10 +12,7 @@ export interface LinearGradientProps extends ViewProps {
   angleCenter?: Point;
   angle?: Float;
 }
-export default class LinearGradient extends Component<
-  LinearGradientProps,
-  any
-> {
+export class LinearGradient extends Component<LinearGradientProps, any> {
   static defaultProps: {
     colors: string[];
   };
