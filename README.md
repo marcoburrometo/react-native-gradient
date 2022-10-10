@@ -1,4 +1,4 @@
-# rnx-gradient
+# react-native-gradient
 
 A `<LinearGradient>` element for React Native above 0.68.
 
